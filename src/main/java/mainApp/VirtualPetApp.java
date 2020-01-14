@@ -20,9 +20,8 @@ public class VirtualPetApp {
 		System.out.println("1 to walk " + petName + ".");
 		System.out.println("2 to feed " + petName + ".");
 		System.out.println("3 to feed " + petName + ".");
-		System.out.println("4 to get " + petName+"'s status");	
+		System.out.println("4 to get " + petName + "'s status");
 		System.out.println("5 to exit Virtual Pet.");
-		
 
 		// game loop
 
@@ -49,14 +48,10 @@ public class VirtualPetApp {
 			} else {
 				System.out.println("Sorry, that's not a recognizable choice");
 				System.out.println("Please choose between 1-4");
-				userChoice = input.nextInt();
 			}
 
 		}
-		
-		
-		
-		
+
 		input.close();
 	}
 
